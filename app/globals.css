@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
+  --background: #ede9c9;
+  --foreground: #343229;
 }
 
 @theme inline {
@@ -22,7 +22,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -33,11 +32,11 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 
 p {
-  font-size: 0.5rem;
+  font-size: 1.25rem;
   text-align: center;
 }

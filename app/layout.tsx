@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { Inconsolata } from "next/font/google";
 import "./globals.css";
+
+const inconsolata = Inconsolata({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -8,11 +11,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={inconsolata.className}>
         <header>
           <h1>linda liu</h1>
           <h2>
-            <Link href="/">home</Link>  .  <Link href="/projects">projects</Link>  .  <Link href="/resume">resume</Link>  .  <Link href="/blog">blog</Link>
+            <Link href="/">home</Link>  .  <Link href="/projects">projects</Link>  .  <Link href="/Linda_Liu_Resume.pdf" target="_blank" rel="noopener noreferrer">resume</Link>  .  <Link href="/blog">blog</Link>
           </h2>
         </header>
         {children}

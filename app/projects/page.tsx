@@ -1,8 +1,7 @@
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
-      {/* Add your projects content here */}
+      <p>under construction! come back later :)</p>
     </div>
   );
 }
