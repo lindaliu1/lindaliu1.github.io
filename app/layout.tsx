@@ -10,7 +10,6 @@ export default function RootLayout({
     <html lang="en">
       <header>
         <h1>linda liu</h1>
-        <hr />
       </header>
       <body>
         {children}
