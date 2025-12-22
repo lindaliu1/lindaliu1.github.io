@@ -4,7 +4,7 @@ import "./globals.css";
 
 const inconsolata = Inconsolata({ subsets: ["latin"] });
 
-export default function RootLayout({
+export default function HeaderLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -17,6 +17,7 @@ export default function RootLayout({
           <h2>
             <Link href="/">home</Link>  .  <Link href="/projects">projects</Link>  .  <Link href="/Linda_Liu_Resume.pdf" target="_blank" rel="noopener noreferrer">resume</Link>  .  <Link href="/blog">blog</Link>
           </h2>
+          <hr className="custom-hr" />
         </header>
         {children}
       </body>

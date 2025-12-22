@@ -1,7 +1,8 @@
 export default function Blog() {
   return (
     <div>
-      <p>under construction! come back later :)</p>
+        <title>linda liu . blog</title>
+        <p>under construction! please come back later :)</p>
     </div>
   );
 }

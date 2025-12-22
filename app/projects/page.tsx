@@ -1,7 +1,8 @@
 export default function Projects() {
   return (
     <div>
-      <p>under construction! come back later :)</p>
+        <title>linda liu . projects</title>
+        <p>under construction! please come back later :)</p>
     </div>
   );
 }
