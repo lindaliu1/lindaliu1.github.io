@@ -1,4 +1,4 @@
-// import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 export default function RootLayout({
@@ -8,10 +8,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <header>
-        <h1>linda liu</h1>
-      </header>
       <body>
+        <header>
+          <h1>linda liu</h1>
+          <h2>
+            <Link href="/">home</Link>  .  <Link href="/projects">projects</Link>  .  <Link href="/resume">resume</Link>  .  <Link href="/blog">blog</Link>
+          </h2>
+        </header>
         {children}
       </body>
     </html>
