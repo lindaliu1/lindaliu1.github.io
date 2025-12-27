@@ -13,7 +13,9 @@ export default function HeaderLayout({
     <html lang="en">
       <body className={inconsolata.className}>
         <header>
-          <h1>linda liu</h1>
+          <h1>
+            <Link href="/">linda liu</Link>
+          </h1>
           <h2>
             <Link href="/">home</Link>  .  <Link href="/projects">projects</Link>  .  <Link href="/Linda_Liu_Resume.pdf" target="_blank" rel="noopener noreferrer">resume</Link>  .  <Link href="/blog">blog</Link>
           </h2>
