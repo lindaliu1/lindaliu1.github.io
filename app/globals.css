@@ -40,7 +40,7 @@ h2 {
 p {
   font-size: 1rem;
   text-align: left;
-  width: 35%;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,25 +48,49 @@ p {
 ul {
   list-style-type: disc;
   margin-left: 2rem;
+  width: 500px;
   padding-left: 0;
   margin-bottom: 1.5rem;
+}
+
+li {
+  font-size: 1rem;
+  text-align: left;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-media-links {
   text-decoration: underline;
 }
 
-li {
-  font-size: 1rem;
-  text-align: left;
-  width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .custom-hr {
-  width: 40%;
+  width: 530px;
   margin: 1rem auto;
   border: none;
   border-top: 2px solid var(--foreground);
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    width: 85%;
+  }
+
+  li {
+    width: 85%;
+  }
+
+  .custom-hr {
+    width: 90%;
+  }
 }
