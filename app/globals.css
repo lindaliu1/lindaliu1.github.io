@@ -73,14 +73,6 @@ li {
 
 /* mobile */
 @media (max-width: 600px) {
-  h1 {
-    font-size: 2.75rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-  }
-
   p {
     width: 85%;
   }
